@@ -1,0 +1,24 @@
+/* Style Guide 
+  *Primary Color: slategray 
+    Secondary Color: darkblue
+*/
+ 
+h1 {
+  color: darkblue;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 48px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+p {
+  color: slategray;
+}
+
+/* Typography 
+  *Primary Font: font-family: 'Libre Baskerville', serif;
+*/
+
+/* ? */
+img {
+  width: 100%;
+}
