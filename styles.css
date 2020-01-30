@@ -3,6 +3,10 @@
     Secondary Color: darkblue
 */
  
+body {
+  background: chartreuse;
+}
+
 h1 {
   color: darkblue;
   font-family: 'Libre Baskerville', serif;
