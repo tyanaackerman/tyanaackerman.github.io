@@ -1,6 +1,8 @@
 # tyanaackerman.github.io
 tyanaackerman.com
 
+## Bio
+
 ## Style Tile
 ### Colors
 * Primary Color: Black
