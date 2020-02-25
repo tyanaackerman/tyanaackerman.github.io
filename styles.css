@@ -1,14 +1,16 @@
 /* Style Guide 
   *Primary Color: slategray 
-    Secondary Color: darkblue
+  *Secondary Color: darkblue
 */
  
+/* CSS Variables */
+
 body {
-  background: chartreuse;
+  background: rgb(212, 234, 255);
 }
 
 h1 {
-  color: darkblue;
+  color: rgb(0, 73, 116);
   font-family: 'Libre Baskerville', serif;
   font-size: 48px;
   letter-spacing: 4px;
