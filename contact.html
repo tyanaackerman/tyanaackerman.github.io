@@ -4,30 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+  <!--  Stylesheet  -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="css/styles.css">
+    
     <title>Contact Form</title>
 </head>
-<body>
-    
-    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" required/></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" required/></label>
-        </p>
+<body class="gradient">
+  
+<!-- Navigation -->
+<nav>
+  <h1>Tyana Ackerman</h1>
+  <a href="http://tyanaackerman.com/">Work</a>
+  <a href="http://tyanaackerman.com/about.html">About</a>
+  <a href="http://tyanaackerman.com/contact.html">Contact</a>
+</nav>
+
+<!-- Container -->
+<main class="contact">
+  
+  <!-- Form -->
+  <section class="contact-form">
+    <h3>Contact</h3>
+
+    <form name="contact"
+    method="POST"
+    data-netlify="true"
+    data-netlify-recaptcha="true">
       
-        <p>
-          <label>Message: <textarea name="message" required></textarea></label>
-        </p>
+      <p>
+        <input type="text" name="name" placeholder="Name"/>
+      </p>
+        
+      <p>
+        <input type="email" name="email" placeholder="Email"/>
+      </p>
+        
+      <p>
+        <textarea name="message" placeholder="Message"></textarea>
+      </p>
+        
+      <div data-netlify-recaptcha="true"></div>
+        
+      <p>
+        <button type="submit">Send</button>
+      </p>
 
-        <input type="file">
+    </form>
+  </section>
 
-        <div data-netlify-recaptcha="true"></div>
+  <!-- Footer -->
+  <footer>
+    <p class="content">
+    &copy; 2020 Tyana Ackerman
+    </p>
+  </footer>
 
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+</main>
 
 </body>
 </html>
